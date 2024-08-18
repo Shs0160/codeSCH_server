@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: project
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none  # JPA ?? ?? ????
+
+  datasource:
+    initialize: false  # ??? ?? ??? ????
+
+
+  autoconfigure:
+      exclude:
+        - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+      #datasource:
+    #url: jdbc:postgresql://localhost:5432/todolist
+    #username: songheesu
+    #password: 10040160
+    #driver-class-name: org.postgresql.Driver
+  #kakao:
+    #key:
+      #client_id: b23af313ad89940e19a6df68ec84a94c
+    #redirect_uri: https://to-do-list-client-two.vercel.app/kakao/callback/
