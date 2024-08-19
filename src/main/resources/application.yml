@@ -12,9 +12,9 @@ spring:
       generate_statistics: true
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/codeschdb
-    username: codesch
-    password: codeschpwd
+    url: jdbc:postgresql://localhost:5432/project_db
+    username: songheesu
+    password: 10040160
 
 #  datasource:
 #    url: jdbc:postgresql://localhost:5432/project_db
