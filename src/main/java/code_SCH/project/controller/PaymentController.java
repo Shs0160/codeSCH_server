@@ -17,7 +17,7 @@ public class PaymentController {
         this.menuService = menuService;
     }
 
-    @GetMapping("/complete")
+    @PostMapping("/complete")
     public ResponseEntity<String> completePayment(@RequestParam String menuName) {
         try {
             menuService.processPayment(menuName);
