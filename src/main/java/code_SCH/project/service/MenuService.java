@@ -4,19 +4,21 @@ import code_SCH.project.repository.MenuRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import code_SCH.project.domain.Menu;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional(readOnly = true)
 public class MenuService {
 
     private final MenuRepository menuRepository;
 
-    @Autowired
     public MenuService(MenuRepository menuRepository) {
         this.menuRepository = menuRepository;
     }
+
 
     public void processPayment(String menuName) {
         Optional<Menu> menuOptional = menuRepository.findByName(menuName);
