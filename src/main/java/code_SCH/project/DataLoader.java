@@ -1,10 +1,13 @@
 package code_SCH.project;
 
+
 import code_SCH.project.domain.Menu;
 import code_SCH.project.repository.MenuRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import java.util.Arrays;
+import java.util.List;
 
 @Configuration
 public class DataLoader {
@@ -12,11 +15,14 @@ public class DataLoader {
     @Bean
     CommandLineRunner initDatabase(MenuRepository menuRepository) {
         return args -> {
-            menuRepository.save(new Menu("Menu1"));
-            menuRepository.save(new Menu("Menu2"));
-            menuRepository.save(new Menu("Menu3"));
-            menuRepository.save(new Menu("Menu4"));
-            menuRepository.save(new Menu("Menu5"));
+            List<String> menuNames = Arrays.asList("Menu1", "Menu2", "Menu3", "Menu4", "Menu5");
+
+            for (String name : menuNames) {
+                if (!menuRepository.findByName(name).isPresent()) {
+                    menuRepository.save(new Menu(name));
+                }
+            }
         };
     }
 }
+

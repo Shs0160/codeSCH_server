@@ -4,10 +4,7 @@ import code_SCH.project.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/payment")
@@ -20,7 +17,7 @@ public class PaymentController {
         this.menuService = menuService;
     }
 
-    @PostMapping("/complete")
+    @GetMapping("/complete")
     public ResponseEntity<String> completePayment(@RequestParam String menuName) {
         try {
             menuService.processPayment(menuName);
@@ -31,4 +28,5 @@ public class PaymentController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }
+
 }

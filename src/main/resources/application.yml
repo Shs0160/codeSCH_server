@@ -7,8 +7,17 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+      format_sql: true
+      use_sql_comments: true
+      generate_statistics: true
 
   datasource:
     url: jdbc:postgresql://localhost:5432/codeschdb
     username: codesch
     password: codeschpwd
+
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/project_db
+#    username: songheesu
+#    password: 10040160
+#    driver-class-name: org.postgresql.Driver
