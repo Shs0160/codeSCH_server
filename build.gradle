@@ -39,6 +39,7 @@ dependencies {
 	//json
 	implementation 'org.json:json:20210307'
 	runtimeOnly 'org.postgresql:postgresql'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
 
 }
 
