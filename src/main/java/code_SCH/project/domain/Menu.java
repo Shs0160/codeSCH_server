@@ -51,6 +51,18 @@ public class Menu {
         }
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setCount(Long count) {
+        this.count = count;
+    }
+
+    public Long getMaxCount() {
+        return maxCount;
+    }
+
     public boolean isMaxCountReached() {
         return this.count >= this.maxCount;
     }

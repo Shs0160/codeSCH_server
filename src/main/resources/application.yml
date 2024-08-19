@@ -3,17 +3,21 @@ spring:
     name: project
 
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
-      ddl-auto: none  # JPA ?? ?? ????
+      ddl-auto: update
 
   datasource:
-    initialize: false  # ??? ?? ??? ????
+    url: jdbc:postgresql://localhost:5432/project_db
+    username: songheesu
+    password: 10040160
+    driver-class-name: org.postgresql.Driver
 
 
-  autoconfigure:
-      exclude:
-        - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  #autoconfigure:
+      #exclude:
+        #- org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 
       #datasource:
     #url: jdbc:postgresql://localhost:5432/todolist

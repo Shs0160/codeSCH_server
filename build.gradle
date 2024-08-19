@@ -34,10 +34,11 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
 	implementation 'software.amazon.awssdk:aws-sdk-java:2.17.61'
 
-	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	implementation 'org.postgresql:postgresql:42.5.0'
 	//json
 	implementation 'org.json:json:20210307'
+	runtimeOnly 'org.postgresql:postgresql'
+
 }
 
 tasks.named('test') {
