@@ -36,7 +36,7 @@ public class ShortTermWeatherAPI {
         String ny = String.valueOf(xy[1]);
 
         StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst");
-        urlBuilder.append("?" + URLEncoder.encode("serviceKey", "UTF-8") + "=OpEXOLcXTcmAqlBCX1VIsKNPuLTGODfsP5ej0%2Ft6gJY5zG4c6tbGru2wum6dv7cDuSRSi94cuF3sSsq%2Fx3oDFQ%3D%3D");
+        urlBuilder.append("?" + URLEncoder.encode("serviceKey", "UTF-8") + "W9ONaqsk8t90o%2FBszgp4T9pPVFn7BYSTrDNqgZKdMuougV6UnHQ1N5YseOUZR7Zxzjcqq6JgQ%2FoDPPB7ojs3jA%3D%3D");
         urlBuilder.append("&" + URLEncoder.encode("pageNo", "UTF-8") + "=" + URLEncoder.encode("1", "UTF-8"));
         urlBuilder.append("&" + URLEncoder.encode("numOfRows", "UTF-8") + "=" + URLEncoder.encode("1000", "UTF-8"));
         urlBuilder.append("&" + URLEncoder.encode("dataType", "UTF-8") + "=" + URLEncoder.encode("JSON", "UTF-8"));
