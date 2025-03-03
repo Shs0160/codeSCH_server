@@ -1,7 +1,7 @@
 # [서퍼톤] codeSCH team - Server
 2024.08.19 ~ 2024.08.20
 
-<img src="https://github.com/user-attachments/assets/8245afce-22dc-4fa8-a96e-f31970cb71c1" width="400"/>
+<img src="https://github.com/user-attachments/assets/8245afce-22dc-4fa8-a96e-f31970cb71c1" width="500"/>
 <br>
 
 ## 천원의 아침밥이란?
@@ -33,6 +33,7 @@
 - QR 코드는 일정 시간 마다 갱신 -> 현장에 있는 인원만 결제 가능
 - KG 이니시스 결제 대행 서비스를  통해 다양한 결제 옵션 제공
 <img src="https://github.com/user-attachments/assets/2a6b1779-d8ae-453a-be00-45c6c25bd708" width="500">
+
 <br>
 
 ## 서비스 ② - 실시간 인원 수 모니터링
@@ -40,24 +41,31 @@
 2. 결제 완료된 메뉴의 카운트 수가 실시간으로 증가
 3. 결제가 정상적으로 이루어지면 서버로 결제 정보 전송
 <img src="https://github.com/user-attachments/assets/e8d37f89-d1e5-40c6-ada5-94c15f8c90dd" width="500">
+
 <br>
 
 ## 서비스 ③ - 실시간 날씨 정보 제공
 실시간 날씨 정보를 제공하여 사용자에게 현재의 날씨 상태(맑음, 비, 눈 등), 온도, 강수량 등의 정보를 시각적으로 전달 
-<img src="https://github.com/user-attachments/assets/42ff3db9-721a-4556-836c-adbdf60c9ab2" width="500">
+<img src="https://github.com/user-attachments/assets/42ff3db9-721a-4556-836c-adbdf60c9ab2" width="600">
+
 <br>
 
 ## 서비스 시나리오
-<img src="https://github.com/user-attachments/assets/9563676d-a4b9-4653-964b-38275afb8f12" width="500">
+<img src="https://github.com/user-attachments/assets/9563676d-a4b9-4653-964b-38275afb8f12" width="600">
+
 <br>
 
 ### 아키텍처
-<img src="https://github.com/user-attachments/assets/88a85217-e66c-42c0-a494-d2d7011b1def" width="500">
+<img src="https://github.com/user-attachments/assets/88a85217-e66c-42c0-a494-d2d7011b1def" width="600">
+
 <br>
 
 ### Awards and Activities
+
 <b>2024 벤처 스타트업 아카데미 해커톤 대회 - 서퍼톤, Challenge the Code Wave 출전</b>
+
 <br>
+
 <b>2024 벤처스타트업아카데미 앱, 게임 개발 경진대회 ` 대상 ` 수상 🏆 </b>
 
 
