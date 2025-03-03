@@ -6,7 +6,7 @@
 
 ## 천원의 아침밥이란?
 아침식사 결식률이 높은 대학생에게 양질의 아침식사를 천 원에 제공하여 젊은 층의 아침식사 습관화와 쌀 소비문화 확산을 농식품부와 대학이 함께 지원하는 서비스<br>
-<img src="https://github.com/user-attachments/assets/6d97eccc-6604-4b2c-8995-e05f9a95c73b" width="800"/>
+<img src="https://github.com/user-attachments/assets/6d97eccc-6604-4b2c-8995-e05f9a95c73b" width="900"/>
 - 천원의 아침밥은 오전 8:00 ~ 10:00 까지 이용 가능하며, 순천향대의 경우 식당마다 100개로 제한
 - 제한 수량이 소진 될 경우 조기 마감
 
@@ -53,7 +53,7 @@
 
 ## 서비스 ③ - 실시간 날씨 정보 제공
 실시간 날씨 정보를 제공하여 사용자에게 현재의 날씨 상태(맑음, 비, 눈 등), 온도, 강수량 등의 정보를 시각적으로 전달 
-<img src="https://github.com/user-attachments/assets/42ff3db9-721a-4556-836c-adbdf60c9ab2" width="700">
+<img src="https://github.com/user-attachments/assets/42ff3db9-721a-4556-836c-adbdf60c9ab2" width="800">
 
 <br>
 
