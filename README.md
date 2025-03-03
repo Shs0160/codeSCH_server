@@ -60,7 +60,7 @@
 <br>
 
 ## 서비스 시나리오
-<img src="https://github.com/user-attachments/assets/9563676d-a4b9-4653-964b-38275afb8f12" width="700">
+<img src="https://github.com/user-attachments/assets/9563676d-a4b9-4653-964b-38275afb8f12" width="900">
 
 <br>
 
