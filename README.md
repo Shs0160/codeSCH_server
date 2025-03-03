@@ -1,12 +1,12 @@
-# 서퍼톤 - codeSCH team Server
+# [서퍼톤] codeSCH team - Server
 2024.08.19 ~ 2024.08.20
 
-<img src="https://github.com/user-attachments/assets/8245afce-22dc-4fa8-a96e-f31970cb71c1" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/8245afce-22dc-4fa8-a96e-f31970cb71c1" width="200"/>
 <br>
 
 ## 천원의 아침밥이란?
 아침식사 결식률이 높은 대학생에게 양질의 아침식사를 천 원에 제공하여 젊은 층의 아침식사 습관화와 쌀 소비문화 확산을 농식품부와 대학이 함께 지원하는 서비스
-<img src="https://github.com/user-attachments/assets/6d97eccc-6604-4b2c-8995-e05f9a95c73b" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/6d97eccc-6604-4b2c-8995-e05f9a95c73b" width="200"/>
 - 천원의 아침밥은 오전 8:00 ~ 10:00 까지 이용 가능하며, 순천향대의 경우 식당마다 100개로 제한
 - 제한 수량이 소진 될 경우 조기 마감
 <br>
